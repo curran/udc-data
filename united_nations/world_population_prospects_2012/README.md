@@ -1,0 +1,1 @@
+This directory contains data sets extracted from the the data set [World Population Prospects: The 2012 Revision](esa.un.org/wpp/) published by the Population Division of the United Nations Department of Economic and Social Affairs of the United Nations Secretariat.

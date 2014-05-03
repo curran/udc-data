@@ -1,8 +1,8 @@
-// A Node.js script that transforms `raw.csv` into `../population_estimates.csv`
+// A Node.js script that transforms `raw.csv` into `../total_population.csv`
 // Curran Kelleher 5/2/2014
 var utils = require('../../../js/utils.js'),
     inFile = 'raw.csv',
-    outFile = '../population_estimates.csv';
+    outFile = '../total_population.csv';
 
 utils.input(inFile, function (data) {
   var rows = data.split('\r\n').slice(1),
