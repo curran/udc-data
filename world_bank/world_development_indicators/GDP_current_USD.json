@@ -3,7 +3,7 @@
     {
       "column": "countryCode",
       "dimension": "Space",
-      "codeList": "ISO 3166-1"
+      "codeList": "ISO 3166-1 alpha-3"
     },
     {
       "column": "year",
