@@ -1,0 +1,22 @@
+{
+  "name": "udc-data",
+  "version": "0.0.1",
+  "homepage": "https://github.com/curran/udc-data",
+  "authors": [
+    "Curran Kelleher <curran.kelleher@gmail.com>"
+  ],
+  "description": "Data sets imported into the Universal Data Cube.",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "data"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "LICENSE",
+    "README.md",
+    "bower.json",
+    "js"
+  ]
+}
