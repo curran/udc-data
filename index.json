@@ -1,0 +1,7 @@
+{
+  "tables": [
+    "united_nations/world_population_prospects_2012/locations",
+    "united_nations/world_population_prospects_2012/total_population",
+    "world_bank/world_development_indicators/GDP_current_USD"
+  ]
+}
