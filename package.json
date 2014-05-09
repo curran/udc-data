@@ -1,0 +1,26 @@
+{
+  "name": "udc-data",
+  "version": "0.0.0",
+  "description": "Data sets imported into the Universal Data Cube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curran/udc-data.git"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "Curran Kelleher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curran/udc-data/issues"
+  },
+  "homepage": "https://github.com/curran/udc-data",
+  "dependencies": {
+    "recursive-readdir": "^1.1.0",
+    "underscore": "^1.6.0"
+  }
+}
