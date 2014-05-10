@@ -1,15 +1,8 @@
-// This script builds the UDC index (index.json) from tables (csv, json pairs).
-// Curran Kelleher 5/9/2014
-var recursive = require('recursive-readdir'),
-    _ = require('underscore'),
-    utils = require('./js/utils');
-
-listTables(function(tables){
-  var index = { tables: tables };
-  utils.output('index.json', JSON.stringify(index, null, 2));
-});
-
 // Lists all table paths, for which there are both csv and json files.
+// Curran Kelleher 5/10/2014
+var recursive = require('recursive-readdir'),
+    _ = require('underscore');
+
 function listTables(callback){
   recursive('.', function (err, files) {
     var csv = names(files, '.csv'),
@@ -47,3 +40,4 @@ function parse(file, nameOrExtension){
     return file.substring(i);
   }
 }
+module.exports = listTables;

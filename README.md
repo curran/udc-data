@@ -3,6 +3,9 @@ udc-data
 
 Universal Data Cube data sets.
 
+ * To run unit tests, run `gulp test`
+ * To recreate `index.json`, run `node js/index.js`
+
 See also:
 
  * [udc](https://github.com/curran/udc) The core Universal Data Cube library.
