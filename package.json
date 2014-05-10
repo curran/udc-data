@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/curran/udc-data",
   "dependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.6.2",
+    "gulp-mocha": "^0.4.1",
     "recursive-readdir": "^1.1.0",
+    "requirejs": "^2.1.11",
     "underscore": "^1.6.0"
-  }
+  },
+  "devDependencies": {}
 }
