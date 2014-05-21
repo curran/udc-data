@@ -6,6 +6,10 @@ Universal Data Cube data sets.
  * To run unit tests, run `gulp test`
  * To recreate `index.json`, run `node js/index.js`
 
+Target data sets:
+
+ * [Britekite](http://snap.stanford.edu/data/loc-brightkite.html)
+
 See also:
 
  * [udc](https://github.com/curran/udc) The core Universal Data Cube library.
